@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-const input = readFileSync('inputs/day3.txt', 'utf8');
+const input = readFileSync('day-03/day03.txt', 'utf8');
 
 export function solveDay3Part1(): number {
   const hitTrees = getHitTreesOnSlope(3, 1);

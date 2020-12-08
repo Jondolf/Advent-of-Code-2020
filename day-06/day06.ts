@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { removeDuplicatesFromString } from "../helpers/removeDuplicatesFromString";
 
-const input = readFileSync('inputs/day6.txt', 'utf8');
+const input = readFileSync('day-06/day06.txt', 'utf8');
 
 export function solveDay6Part1() {
   const groups = input.split(/\n\s*\n/);

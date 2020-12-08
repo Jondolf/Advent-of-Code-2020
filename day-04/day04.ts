@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { convertStringToObject } from "../helpers/convertStringToObject";
 
-const input = readFileSync('inputs/day4.txt', 'utf8');
+const input = readFileSync('day-04/day04.txt', 'utf8');
 
 export function solveDay4Part1(): number {
   const passports = input.split(/\n\s*\n/);

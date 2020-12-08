@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-const input = readFileSync('inputs/day2.txt', 'utf8');
+const input = readFileSync('day-02/day02.txt', 'utf8');
 
 export function solveDay2Part1(): number {
   const rows = input.split('\n');

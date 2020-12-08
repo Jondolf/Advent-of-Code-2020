@@ -6,12 +6,12 @@ I wrote all of my solutions in [TypeScript](https://www.typescriptlang.org/). My
 
 ## File structure
 
-[/inputs](./inputs) has all of my inputs as _.txt_ files\
-[/solutions](./solutions) has all of my solutions as _.ts_ files\
-[/helpers](./helpers) has helper functions as _.ts_ files
+Each day has its own folder. Each folder has a solution file `dayXX.ts`, an input file `dayXX.txt` and an instruction file `README.md`.
+
+The [/helpers](./helpers) folder has reusable helper functions in `.ts` files.
 
 ## Running code
 
-The solutions can be run with `ts-node solutions/dayX.ts`, if ts-node is installed globally. Alternatively, you can install ts-node locally with `npm install` and run the solutions with `npx ts-node solutions/dayX.ts`.
+The solutions can be run with `ts-node day-XX/dayXX.ts`, if ts-node is installed globally. Alternatively, you can install ts-node locally with `npm install` and run the solutions with `npx ts-node day-XX/dayXX.ts`.
 
 `npm run start` can be used to run all solutions at once.
