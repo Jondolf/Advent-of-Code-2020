@@ -4,6 +4,7 @@ import { solveDay3Part1 } from "./solutions/day3";
 import { solveDay4Part1 } from "./solutions/day4";
 import { solveDay5Part1 } from "./solutions/day5";
 import { solveDay6Part1 } from "./solutions/day6";
+import { solveDay7Part1 } from "./solutions/day7";
 
 // The function calls simply run the files
 function main() {
@@ -13,6 +14,7 @@ function main() {
   solveDay4Part1();
   solveDay5Part1();
   solveDay6Part1();
+  solveDay7Part1();
 }
 
 main();
